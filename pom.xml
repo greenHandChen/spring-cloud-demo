@@ -11,6 +11,7 @@
         <module>cloud-person</module>
         <module>cloud-some</module>
         <module>cloud-ui</module>
+        <module>cloud-monitor</module>
     </modules>
     <packaging>pom</packaging>
 

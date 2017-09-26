@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-server" />
         <module name="cloud-eureka-server" />
+        <module name="cloud-monitor" />
         <module name="cloud-person" />
         <module name="cloud-some" />
         <module name="cloud-ui" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="cloud-config-server" target="1.6" />
       <module name="cloud-eureka-server" target="1.6" />
+      <module name="cloud-monitor" target="1.6" />
       <module name="cloud-person" target="1.6" />
       <module name="cloud-some" target="1.6" />
       <module name="cloud-ui" target="1.6" />

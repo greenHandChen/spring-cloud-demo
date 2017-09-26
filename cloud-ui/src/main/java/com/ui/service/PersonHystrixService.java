@@ -15,7 +15,7 @@ import java.util.List;
 public class PersonHystrixService {
     @Autowired
     PersonService personService;
-
+    @HystrixCommand(fallbackMethod = "fallbackSave")// 当调用这个方法出现问题时，将调用这个断路方法
     public List<Person> save(String name){
         return personService.save(name);
     }
