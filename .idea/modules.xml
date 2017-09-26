@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudDemo.iml" filepath="$PROJECT_DIR$/SpringCloudDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" filepath="$PROJECT_DIR$/cloud-eureka-server/cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-person/cloud-person.iml" filepath="$PROJECT_DIR$/cloud-person/cloud-person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-some/cloud-some.iml" filepath="$PROJECT_DIR$/cloud-some/cloud-some.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-ui/cloud-ui.iml" filepath="$PROJECT_DIR$/cloud-ui/cloud-ui.iml" />
+    </modules>
+  </component>
+</project>
