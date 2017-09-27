@@ -13,11 +13,13 @@ import org.springframework.web.client.RestTemplate;
 public class SomeHystrixService {
     @Autowired
     RestTemplate restTemplate;// rest服务模板，spring-boot已为我们做好配置
+
     @HystrixCommand(fallbackMethod = "fallbackSome")// 当调用该方法失败时，将调用断路方法
-    public String getSome(){
-        return restTemplate.getForObject("http://some/getMsg",String.class);
+    public String getSome() {
+        return restTemplate.getForObject("http://some/getMsg", String.class);
     }
-    public String fallbackSome(){
+
+    public String fallbackSome() {
         return "some service has broken!";
     }
 
