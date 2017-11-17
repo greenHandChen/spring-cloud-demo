@@ -12,7 +12,7 @@
     <artifactId>cloud-some</artifactId>
 
     <dependencies>
-        <!--添加对配置服务-客户端的支持-->
+        <!-- 配置中心-客户端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
