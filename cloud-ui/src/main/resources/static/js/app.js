@@ -9,7 +9,7 @@ uiApp.config(function ($stateProvider,$urlRouterProvider) {
     $urlRouterProvider.otherwise("person");
     $stateProvider
         .state('person',{//设置路由名称
-            url:'/person',// 设置路由名称
+            url:'/person',// 设置请求路径
             templateUrl: '/views/person.html',// 设置文件真实位置
             controller: 'PersonController'// 设置控制器
         })
