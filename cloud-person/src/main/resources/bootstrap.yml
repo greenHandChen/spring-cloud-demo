@@ -3,11 +3,10 @@ spring:
     name: person
   cloud:
     config:
-      enabled: true
-      discovery:
-        enabled: true
-        service-id: CONFIG
-
+      uri: http://localhost:8888/ # 指定配置中心-服务端
+      profile: dev # 激活指定的profile 对应映射规则的 {profile} 部分
+      label: master # 指定分支 对应映射规则的 {label} 部分
+      name: dataSource # 对应映射规则的 {application} 部分
 # 配置服务发现相关信息
 eureka:
   instance:

@@ -1,12 +1,8 @@
-
-#  profiles:
-#    active: native #使用本地配置默认为git配置
-
-#eureka:
-#  instance:
-#    non-secure-port: ${server.port:8888}
-#    metadata-map:
-#      instancedId: ${spring.application.name}:${random.value} #配置在eureka server的实例ID
-#    client:
-#      service-url:
-#        defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/ #Eureka客户端设置Eureka server的地址
+eureka:
+  instance:
+    non-secure-port: ${server.port:8888}
+    metadata-map:
+      instancedId: ${spring.application.name}:${random.value} #配置在eureka server的实例ID
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/ #Eureka客户端设置Eureka server的地址
