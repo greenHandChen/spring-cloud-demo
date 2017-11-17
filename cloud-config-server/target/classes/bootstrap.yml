@@ -1,8 +1,8 @@
 spring:
   application:
     name: config #在eureka server 注册的服务名称为config
-  profiles:
-    active: native #使用本地配置默认为git配置
+#  profiles:
+#    active: native #使用本地配置默认为git配置
 
 eureka:
   instance:

@@ -1,9 +1,16 @@
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config #配置其他项目的配置文件路径(本地配置)
 spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config #配置其他项目的配置文件路径(本地配置)
+        git:
+          uri: https://github.com/greenHandChen/spring-cloud-demo.git
+          search-paths: cloud-config-repo
 
 server:
   port: 8888
