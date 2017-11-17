@@ -14,7 +14,7 @@
 初始化数据:初始化数据的文件存在于本服务/src/main/resources/data.sql中(第一次启动项目时，务必将文件名从dataSQL修改为data,项目启动成功后，务必将文件名修改回dataSQL)。<br>
 ### 4.cloud-some
 服务模块<br>
-同样采用了外部配置，该服务的额外配置存在于config-server服务的/src/main/resources/config下。<br>
+同样采用了外部配置，该服务的额外配置存在于git的仓库中。<br>
 ### 5.cloud-ui
 界面模块-具备了路由网关与负载均衡的功能<br>
 路由网关:目的是为了让所有的微服务对外只暴露出一个接口，当访问其余服务时，通过网关把我们的请求代理到对应的服务上。<br>
