@@ -1,9 +1,18 @@
+spring:
+  application:
+    name: eureka-server
+  jackson:
+    serialization:
+      indent_output: true
+
+
 server:
   port: 8761 #指明服务器端口
 
 eureka:
   instance:
     hostname: localhost #指明eureka server 的主机名
-  cilent:
+  client:
     register-with-eureka: false #当前服务不需要注册到eureka server
     fetch-registry: false
+

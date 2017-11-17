@@ -9,6 +9,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  jackson:
-    serialization:
-      indent_output: true
